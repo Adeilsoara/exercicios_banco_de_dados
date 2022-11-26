@@ -27,6 +27,7 @@ select id_nf, id_item, cod_prod, valor_unit, valor_unit - (valor_unit * desconto
 from produtos
 where desconto is not null;
 ```
+## Resultado esperado
 
 ![q2](https://user-images.githubusercontent.com/6910054/204104683-b2db8d82-81f6-4376-a028-1f9ce0513edb.PNG)
 
